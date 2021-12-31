@@ -20,17 +20,17 @@ public class StudentConfiguration {
             MongoTemplate mongoTemplate) {
         return args -> {
 
-            Address address = new Address("England","London","NE43");
+            Address address = new Address("England","Liverpool","NE93");
 
-            String email = "robertpatt@gmail.com";
+            String email = "johntweskburry@gmail.com";
 
             Student student = new Student(
-                    "Robert",
-                    "Pattinson",
+                    "John",
+                    "Tewksburry",
                     email,
                     Gender.MALE,
                     address,
-                    List.of("Art", "Theater"),
+                    List.of("Math", "Computer Science"),
                     BigDecimal.TEN,
                     LocalDateTime.now()
             );
