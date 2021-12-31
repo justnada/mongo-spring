@@ -10,3 +10,4 @@ Restfull app using java spring boot and mongo db.
 ## Tools
 * Intellij Idea
 * Docker
+* Postman (for testing API)
