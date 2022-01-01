@@ -1,5 +1,5 @@
 # Java Spring Restfull using MongoDB
-Restfull app using java spring boot and mongo db.
+Rest api using java spring boot and mongo db.
 
 ## Short Description
 * Start docker in docker-compose.yaml (services run button)
